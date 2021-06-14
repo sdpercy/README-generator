@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/sdpercy/sdpercy-readme-generator/issues"
   },
-  "homepage": "https://github.com/sdpercy/sdpercy-readme-generator#readme",
-  "dependencies": {
-    "inquirer": "^8.1.0"
-  }
+  "homepage": "https://github.com/sdpercy/sdpercy-readme-generator#readme"
 }
