@@ -1,49 +1,43 @@
 
   
-# Test
+  # Challenge: Professional README Generator
 
-  function renderLicenseBadge(license) {
-  if (!license){
-    return '';
-  }
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-  return `![badge](https://img.shields.io/badge/license-${userInput.license}-blue?style=flat-square)`;
-}<br />
+  <br />
 
-## Table of Contents
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributing](#contributing)
-6. [Tests](#tests)
-7. [Questions](#questions)
+  ## Table of Contents
+  1. [Description](#description)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests)
+  7. [Questions](#questions)
   
   ## Description
-  test
+  You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
   
   ## Installation
-  tset
+  Information to be provide in the future.
   
   ## Usage
-  tset
+  Instructions to be provide in the future.
   
   ## License
-  GNU AGPLv3
+  For more information about the License click on the badge below!
+  <br />
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  
  
   ## Contributing
-  set
+  sdpercy
 
   ## Tests
-  undefined
+  run npm test to generate readme
 
   ## Questions
-  undefined
+
+  Find me on GitHub: [sdpercy](https://github.com/sdpercy)<br />
   <br />
-
-  Find me on GitHub: [test](https://github.com/test)<br />
-  <br />
-  Email questions to: teset<br />
-
-  
-
+  Email questions to: scottpercy@hotmail.com<br />

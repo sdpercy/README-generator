@@ -20,41 +20,48 @@ const questions = () => {
             message: "Write a description of your project.",
         },
         {
-        type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username!',
+            type: 'input',
+            name: 'github',
+            message: 'Enter your GitHub Username!',
         },
         {
-        type: 'input',
-        name: 'repo',
-        message: 'What is the name of your GitHub repository?',
-        default: 'readme-generator',
+            type: 'input',
+            name: 'repo',
+            message: 'What is the name of your GitHub repository?',
+            default: 'readme-generator',
         },
         {
-        type: "input",
-        message: "Enter your email address:",
-        name: "email"
+            type: "input",
+            message: "Enter your email address:",
+            name: "email"
         },
         {
-        type: 'input',
-        name: 'installation',
-        message: "Provide a step-by-step description of how to get the development environment running.",   
+            type: 'input',
+            name: 'installation',
+            message: "Provide a step-by-step description of how to get the development environment running.",
+            default: 'Information to be provide in the future.'   
         },
         {
-        type: 'input',
-        name: 'usage',
-        message: "Provide instructions and examples of your project in use for the Usage section.",
+            type: 'input',
+            name: 'usage',
+            message: "Provide instructions and examples of your project in use for the Usage section.",
+            default: 'Instructions to be provide in the future.'
         },
         {
-        type: 'input',
-        name: 'credits',
-        message: "List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. If you followed tutorials, include links to those here as well.",
+            type: 'input',
+            name: 'credits',
+            message: "List your collaborators, if any, with links to their GitHub profiles.",
         },
         {
-        type: 'list',
-        name: 'license',
-        message: "Choose a license for your project.",
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+            type: "input",
+            name: "tests",
+            message: "Enter Test Instructions"
+        },  
+        {
+            type: 'list',
+            name: 'license',
+            message: "Choose a license for your project.",
+            choices: ['No license', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0'],
         }
     ]);
 }
@@ -66,7 +73,6 @@ async function init() {
         const userInput = await questions();
         //pass the data from inquirer prompt to the markdown file
         const markdownFileInput = generateMarkdown(userInput);
-
 
         await writeFileAsync('./dist/generated-README.md', markdownFileInput);
         console.log('"Your READMe.md file has been successfully generated!"');
