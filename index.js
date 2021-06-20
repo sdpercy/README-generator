@@ -55,7 +55,8 @@ const questions = () => {
         {
             type: "input",
             name: "tests",
-            message: "Enter Test Instructions"
+            message: "Enter Test Instructions",
+            default: 'Instructions to be provide in the future.'
         },  
         {
             type: 'list',
@@ -66,7 +67,7 @@ const questions = () => {
     ]);
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app
 async function init() {
     try {
         //gets the responses
