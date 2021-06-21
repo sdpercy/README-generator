@@ -8,10 +8,7 @@
   1. [Description](#description)
   2. [Installation](#installation)
   3. [Usage](#usage)
-  4. [License](#license)
-  5. [Contributing](#contributing)
-  6. [Tests](#tests)
-  7. [Questions](#questions)
+  4. [Questions](#questions)
   
   ## Description
   An automated README.md generator that uses the Inquirer NPM, File System (FS), and Node.js to automatically create README markdown files.
