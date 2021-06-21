@@ -1,6 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
+// function that returns a license badge 
 
 function renderLicenseBadge(userInput) 
 {
@@ -30,7 +28,7 @@ function renderLicenseBadge(userInput)
   return licensebadge
 };
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 
 function generateMarkdown(userInput) {
   return `

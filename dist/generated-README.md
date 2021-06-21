@@ -1,8 +1,8 @@
 
   
-  # Challenge: Professional README Generator
+  # Professional README Generator
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   <br />
 
@@ -16,25 +16,25 @@
   7. [Questions](#questions)
   
   ## Description
-  You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
+  An automated README.md generator that uses the Inquirer NPM, File System (FS), and Node.js to automatically create README markdown files.
   
   ## Installation
-  Information to be provide in the future.
+  The README generator requires installation of Node.js. Users must also have access to an IDE such as Visual Studio Code with access to the terminal or access to GitBash/Command Line Interface to run Node. Clone the GitHub repository. Run “npm init” when you first set up the project, before installing any dependencies.  Then install Inquirer with the following command “npm install inquirer”.  To launch the application.  Type “node index” in a command window.
   
   ## Usage
-  Instructions to be provide in the future.
+  This is a command-line application that accepts user input.  When prompted for information about my application repository then a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.  When a project title is entered it is displayed as the title of the README. When description, installation instructions, usage information, contribution guidelines, and test instructions are entered the information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.  Choose a license for the application from a list of option a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.  When your GitHub username and email address is entered, it is added to the section of the README entitled Questions, with a link to my GitHub profile.
   
   ## License
-  For more information about the License click on the badge below!
+  For more information about the License click on the badge below!<br />
   <br />
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
  
   ## Contributing
-  sdpercy
+  No collaborators.
 
   ## Tests
-  run npm test to generate readme
+  Instructions to be provide in the future.
 
   ## Questions
 
